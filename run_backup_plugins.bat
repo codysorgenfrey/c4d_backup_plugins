@@ -1,0 +1,1 @@
+"C:\Users\cosorgen\AppData\Local\Programs\Python\Python38-32\python.exe" "D:\Dev\backup-plugins\backup-plugins.py"
