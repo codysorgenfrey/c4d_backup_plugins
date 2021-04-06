@@ -1,7 +1,9 @@
 from distutils.dir_util import copy_tree
+from distutils.file_util import copy_file
 
 CLOUD = "D:\\OneDrive - Microsoft"
 LOCAL = "C:\\Users\\cosorgen\\AppData\\Roaming\\MAXON\\Maxon Cinema 4D R23_DBA5903C"
+LOCALROOT = "C:\\Program Files\\Maxon Cinema 4D R23"
 
 print("Starting...")
 
@@ -29,6 +31,11 @@ print("Copying local xpools to cloud...")
 copy_tree(src=LOCAL+"\\library\\xgroup", dst=CLOUD+"\\C4D Xpresso Pools", update=1)
 print("Done.")
 
+# new.c4d
+print("Copying local new.c4d to cloud...")
+copy_file(src=LOCALROOT+"\\new.c4d", dst=CLOUD+"\\new.c4d", update=1)
+print("Done.")
+
 #
 # copy onedrive files into local
 #
@@ -51,4 +58,9 @@ print("Done.")
 # xpools
 print("Copying cloud xpools to local...")
 copy_tree(src=CLOUD+"\\C4D Xpresso Pools", dst=LOCAL+"\\library\\xgroup", update=1)
+print("Done.")
+
+# new.c4d
+print("Copying cloud new.c4d to local...")
+copy_file(src=CLOUD+"\\new.c4d", dst=LOCALROOT+"\\new.c4d", update=1)
 print("Done.")
