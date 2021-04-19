@@ -2,8 +2,8 @@ from distutils.dir_util import copy_tree
 from distutils.file_util import copy_file
 
 CLOUD = "D:\\OneDrive - Microsoft"
-LOCALC4D = "C:\\Users\\cosorgen\\AppData\\Roaming\\MAXON\\Maxon Cinema 4D R23_DBA5903C"
-LOCALC4DROOT = "C:\\Program Files\\Maxon Cinema 4D R23"
+LOCALC4D = "C:\\Users\\cosorgen\\AppData\\Roaming\\MAXON\\Maxon Cinema 4D R24_C2A528F6"
+LOCALC4DROOT = "C:\\Program Files\\Maxon Cinema 4D R24"
 LOCALAE = "C:\\Program Files\\Adobe\\Adobe After Effects 2021\\Support Files"
 
 print("Starting...")
@@ -32,7 +32,7 @@ print("Done.")
 
 # python libs
 print("Copying local C4D python libs to cloud...")
-copy_tree(src=LOCALC4D+"\\python37\\libs", dst=CLOUD+"\\C4D Python Libs", update=1)
+copy_tree(src=LOCALC4D+"\\python39\\libs", dst=CLOUD+"\\C4D Python Libs", update=1)
 print("Done.")
 
 # xpools
@@ -69,7 +69,7 @@ print("Done.")
 
 # python libs
 print("Copying cloud C4D python libs to local...")
-copy_tree(src=CLOUD+"\\C4D Python Libs", dst=LOCALC4D+"\\python37\\libs", update=1)
+copy_tree(src=CLOUD+"\\C4D Python Libs", dst=LOCALC4D+"\\python39\\libs", update=1)
 print("Done.")
 
 # xpools
