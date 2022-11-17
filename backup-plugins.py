@@ -2,9 +2,9 @@ from distutils.dir_util import copy_tree
 from distutils.file_util import copy_file
 
 CLOUD = "D:\\OneDrive - Microsoft"
-LOCALC4D = "C:\\Users\\cosorgen\\AppData\\Roaming\\MAXON\\Maxon Cinema 4D R25_1FE0824E"
-LOCALC4DROOT = "C:\\Program Files\\Maxon Cinema 4D R25"
-LOCALAE = "C:\\Program Files\\Adobe\\Adobe After Effects 2021\\Support Files"
+LOCALC4D = "C:\\Users\\cosorgen\\AppData\\Roaming\\Maxon\\Maxon Cinema 4D 2023_BCDB4759"
+LOCALC4DROOT = "C:\\Program Files\\Maxon Cinema 4D 2023"
+LOCALAE = "C:\\Program Files\\Adobe\\Adobe After Effects 2022\\Support Files"
 
 print("Starting...")
 
