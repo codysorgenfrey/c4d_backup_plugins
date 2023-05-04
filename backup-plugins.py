@@ -32,7 +32,7 @@ print("Done.")
 
 # python libs
 print("Copying local C4D python libs to cloud...")
-copy_tree(src=LOCALC4D+"\\python39\\libs", dst=CLOUD+"\\C4D Python Libs", update=1)
+copy_tree(src=LOCALC4D+"\\python310\\libs", dst=CLOUD+"\\C4D Python Libs", update=1)
 print("Done.")
 
 # xpools
