@@ -58,12 +58,6 @@ print("Copying local C4D xpools to cloud...")
 copy_directory(LOCALC4D+"\\library\\xgroup", CLOUD+"\\C4D Xpresso Pools")
 print("Done.")
 
-# new.c4d
-print("Copying local new.c4d to cloud...")
-if os.path.exists(LOCALC4DROOT+"\\new.c4d"):
-    shutil.copy2(LOCALC4DROOT+"\\new.c4d", CLOUD+"\\new.c4d")
-print("Done.")
-
 #
 # copy onedrive files into local
 #
@@ -94,10 +88,4 @@ print("Done.")
 # xpools
 print("Copying cloud C4D xpools to local...")
 copy_directory(CLOUD+"\\C4D Xpresso Pools", LOCALC4D+"\\library\\xgroup")
-print("Done.")
-
-# new.c4d
-print("Copying cloud new.c4d to local...")
-if os.path.exists(CLOUD+"\\new.c4d"):
-    shutil.copy2(CLOUD+"\\new.c4d", LOCALC4DROOT+"\\new.c4d")
 print("Done.")
