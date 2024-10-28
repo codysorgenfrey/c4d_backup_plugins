@@ -19,8 +19,8 @@ def copy_directory(src_dir, dst_dir):
                 shutil.copy2(src_file, dst_file)
 
 CLOUD = "D:\\OneDrive - Microsoft"
-LOCALC4D = "C:\\Users\\cosorgen\\AppData\\Roaming\\Maxon\\Maxon Cinema 4D 2024_A5DBFF93"
-LOCALC4DROOT = "C:\\Program Files\\Maxon Cinema 4D 2024"
+LOCALC4D = "C:\\Users\\cosorgen\\AppData\\Roaming\\Maxon\\Maxon Cinema 4D 2025_789E552B"
+LOCALC4DROOT = "C:\\Program Files\\Maxon Cinema 4D 2025"
 LOCALAE = "C:\\Program Files\\Adobe\\Adobe After Effects 2024\\Support Files"
 C4DPYTHONFOLDER = "python311"
 
