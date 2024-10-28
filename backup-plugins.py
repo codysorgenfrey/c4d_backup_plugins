@@ -21,7 +21,7 @@ def copy_directory(src_dir, dst_dir):
 CLOUD = "D:\\OneDrive - Microsoft"
 LOCALC4D = "C:\\Users\\cosorgen\\AppData\\Roaming\\Maxon\\Maxon Cinema 4D 2025_789E552B"
 LOCALC4DROOT = "C:\\Program Files\\Maxon Cinema 4D 2025"
-LOCALAE = "C:\\Program Files\\Adobe\\Adobe After Effects 2024\\Support Files"
+LOCALAE = "C:\\Program Files\\Adobe\\Adobe After Effects 2025\\Support Files"
 C4DPYTHONFOLDER = "python311"
 
 print("Starting...")
